@@ -1,0 +1,29 @@
+{
+  "queueDiscipline": "PQ",
+  "structures": [
+    {
+      "stageNumber": 1,
+      "nameOfStage": "queue",
+      "description": "waiting to be served"
+    },
+    {
+      "stageNumber": 2,
+      "nameOfStage": "queue2",
+      "description": "waiting to be served2"
+    }
+  ],
+  "shopActivities": [
+    [
+      ["Haircut", "RM15", 1],
+      ["Perm", "RM150", 3],
+      ["Hair Colouring", "RM100", 2]
+    ],
+    [
+      ["Haircut2", "RM15", 1],
+      ["Perm2", "RM150", 3],
+      ["Hair Colouring2", "RM100", 2]
+    ]
+  ],
+  "maxQueueLength": 500,
+  "timeLimitForCustomer": 10
+}

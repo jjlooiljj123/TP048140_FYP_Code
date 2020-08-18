@@ -1,0 +1,27 @@
+{
+  "queueDiscipline": "FIFO",
+  "structures": [
+    {
+      "stageNumber": 1,
+      "nameOfStage": "registration",
+      "description": "register at the registration counter"
+    },
+    {
+      "stageNumber": 2,
+      "nameOfStage": "diagnosis",
+      "description": "see the doctor"
+    },
+    {
+      "stageNumber": 3,
+      "nameOfStage": "prescription",
+      "description": "take medicine and make payment"
+    }
+  ],
+  "shopActivities": [
+    [["registration", "register at the registration counter", 1, 10]],
+    [["diagnosis", "see the doctor", 1, 20]],
+    [["prescription", "take medicine and make payment", 1, 15]]
+  ],
+  "maxQueueLength": 500,
+  "timeLimitForCustomer": 5
+}

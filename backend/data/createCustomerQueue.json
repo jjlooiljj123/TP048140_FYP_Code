@@ -1,0 +1,8 @@
+{
+  "queueStage": 1,
+  "pax": 1,
+  "description": "no description",
+  "activity": "Dine In",
+  "priority": 1,
+  "queueDiscipline": "FIFO"
+}

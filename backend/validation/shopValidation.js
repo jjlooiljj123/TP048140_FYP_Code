@@ -1,0 +1,25 @@
+const { body } = require("express-validator");
+
+exports.createShop = [
+  body("shopName").trim().not().isEmpty(),
+  body("branch").trim().not().isEmpty(),
+  body("address").trim().not().isEmpty(),
+  body("directory").trim().not().isEmpty(),
+  body("imageUrl").trim().not().isEmpty(),
+  body("monOpen").trim().not().isEmpty(),
+  body("tueOpen").trim().not().isEmpty(),
+  body("wedOpen").trim().not().isEmpty(),
+  body("thuOpen").trim().not().isEmpty(),
+  body("friOpen").trim().not().isEmpty(),
+  body("satOpen").trim().not().isEmpty(),
+  body("sunOpen").trim().not().isEmpty(),
+  body("holOpen").trim().not().isEmpty(),
+  body("monClose").trim().not().isEmpty(),
+  body("tueClose").trim().not().isEmpty(),
+  body("wedClose").trim().not().isEmpty(),
+  body("thuClose").trim().not().isEmpty(),
+  body("friClose").trim().not().isEmpty(),
+  body("satClose").trim().not().isEmpty(),
+  body("sunClose").trim().not().isEmpty(),
+  body("holClose").trim().not().isEmpty(),
+];
